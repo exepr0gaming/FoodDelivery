@@ -11,7 +11,10 @@ import SwiftUI
 struct FoodDeliveryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         // MainView()
+          TabBarView()
+         // CategoryView()
+          //CoordinatorView()
         }
     }
 }
