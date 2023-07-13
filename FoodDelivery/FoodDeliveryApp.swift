@@ -2,7 +2,7 @@
 //  FoodDeliveryApp.swift
 //  FoodDelivery
 //
-//  Created by Admin on 11.07.2023.
+//  Created by Admin on 12.07.2023.
 //
 
 import SwiftUI
@@ -11,10 +11,7 @@ import SwiftUI
 struct FoodDeliveryApp: App {
     var body: some Scene {
         WindowGroup {
-         // MainView()
-          TabBarView()
-         // CategoryView()
-          //CoordinatorView()
+          MainView()
         }
     }
 }
